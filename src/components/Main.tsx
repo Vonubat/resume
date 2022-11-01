@@ -1,4 +1,5 @@
 import React from 'react';
+import Education from './Education';
 import SkillsAndTools from './SkillsAndTools';
 import WorkExperienceRSSchool from './WorkExperienceRSSchool';
 import WorkExperienceVector from './WorkExperienceVector';
@@ -9,9 +10,10 @@ function Main() {
       <section className="left">
         <WorkExperienceRSSchool />
       </section>
-      <section className="right">
+      <section className="right flex flex-col gap-10">
         <WorkExperienceVector />
         <SkillsAndTools />
+        <Education />
       </section>
     </main>
   );
