@@ -1,12 +1,13 @@
 import React from 'react';
 import Education from './Education';
+import Languages from './Languages';
 import SkillsAndTools from './SkillsAndTools';
 import WorkExperienceRSSchool from './WorkExperienceRSSchool';
 import WorkExperienceVector from './WorkExperienceVector';
 
 function Main() {
   return (
-    <main className="max-w-[1024px] mx-auto mt-3 flex flex-wrap justify-between">
+    <main className="max-w-[1024px] mx-auto mt-3 flex flex-wrap justify-center lg:justify-between">
       <section className="left">
         <WorkExperienceRSSchool />
       </section>
@@ -14,6 +15,7 @@ function Main() {
         <WorkExperienceVector />
         <SkillsAndTools />
         <Education />
+        <Languages />
       </section>
     </main>
   );
