@@ -3,8 +3,8 @@ import React from 'react';
 function Contact() {
   return (
     <div className="contact-block bg-gray-200 whitespace-nowrap">
-      <div className="flex flex-wrap justify-around sm:justify-between mt-10 max-w-[1024px] mx-auto">
-        <section className="main flex flex-col gap-2 my-2 mx-2 w-[250px]">
+      <div className="flex flex-wrap justify-center lg:justify-between mt-10 max-w-[1024px] mx-auto">
+        <section className="main flex flex-col gap-2 my-2 mx-2 w-[450px]">
           <div className="telegram flex flex-nowrap items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ function Contact() {
             </a>
           </div>
         </section>
-        <section className="additional flex flex-col gap-2 my-2 mx-2 w-[250px]">
+        <section className="additional flex flex-col gap-2 my-2 mx-2 w-[450px]">
           <div className="skype flex flex-nowrap items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
