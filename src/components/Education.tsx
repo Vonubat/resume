@@ -10,7 +10,7 @@ function Education() {
         Belarusian National Technical University. Information Technologies and
         Robotics Faculty
       </h3>
-      <h4 className=" text-xl text-slate-800 flex items-center gap-1">
+      <h4 className=" text-xl leading-none text-slate-800 flex items-center gap-1">
         Automation of Technological Processes and Production
       </h4>
       <h5 className="font-light italic leading-normal text-gray-500">
@@ -19,7 +19,7 @@ function Education() {
       <h5 className="font-light italic leading-thin text-gray-500">Details:</h5>
       <ul className="marker:content-['-'] ml-5">
         <li className="pl-1">Degree: Master of Engineering.</li>
-        <li className="pl-1">Grade Point Average : 8.5 out of 10.</li>
+        <li className="pl-1">Grade Point Average: 8.5 out of 10.</li>
       </ul>
     </div>
   );
