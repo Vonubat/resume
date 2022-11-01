@@ -3,7 +3,7 @@ import Avatar from '../assets/avatar.jpg';
 
 function Header() {
   return (
-    <header className="flex justify-center flex-wrap items-center mt-5">
+    <header className="flex justify-center flex-wrap items-center mt-5 max-w-[1280px] mx-auto">
       <img
         src={Avatar}
         className="rounded-full w-32 shadow-lg mt-3"
