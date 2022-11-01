@@ -63,7 +63,7 @@ function WorkExperienceRSSchool() {
           useReducer and Context API), Redux, RTK, RTK Query, Tailwind, React
           Testing Library.
         </li>
-        <li className="pl-1">Implementation time: 6 weeks</li>
+        <li className="pl-1">Implementation time: 6 weeks.</li>
       </ul>
       <h4 className="font-semibold text-slate-800 flex items-center content-center gap-1">
         RS lang (team project)
@@ -81,7 +81,7 @@ function WorkExperienceRSSchool() {
           App for learning words with interval repetition technique, individual
           progress tracking and mini-games. Application use API with ability to
           create new users, users can have learning words, setting and
-          statistics data
+          statistics data.
         </li>
         <li className="pl-1">
           Key skills: TS, MongoDB, async coding, team working, code reviewing,
@@ -137,7 +137,7 @@ function WorkExperienceRSSchool() {
           Key skills: pure JS (slider, pagination, modal window, burger-menu),
           HTML, Sass.
         </li>
-        <li className="pl-1">Implementation time: 3 weeks</li>
+        <li className="pl-1">Implementation time: 3 weeks.</li>
       </ul>
       <h4 className="font-semibold text-slate-800 flex items-center content-center gap-1">
         Repair workshop
@@ -152,10 +152,10 @@ function WorkExperienceRSSchool() {
       </h4>
       <ul className="marker:content-['-'] ml-5">
         <li className="pl-1">
-          The first freelance job. Landing Page with responsive layout
+          The first freelance job. Landing Page with responsive layout.
         </li>
         <li className="pl-1">Key skills: SMTP-service, JS, HTML, Sass.</li>
-        <li className="pl-1">Implementation time: 2 weeks</li>
+        <li className="pl-1">Implementation time: 2 weeks.</li>
       </ul>
     </div>
   );
