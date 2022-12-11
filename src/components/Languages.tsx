@@ -7,7 +7,7 @@ export const Languages = (): JSX.Element => {
     <div className="flex flex-col max-w-[450px] mx-2 my-2">
       <H2>{Sections.languages}</H2>
       <div className="flex justify-between">
-        <span>English - B1</span>
+        <span>English - B2</span>
         <span>Russian - Native Speaker</span>
       </div>
     </div>
