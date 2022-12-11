@@ -1,9 +1,9 @@
 import React from 'react';
 import { Establishments } from '../constants';
 import LinkIcon from './../assets/link.png';
-import { H2, H3, H4, H5 } from './Typography';
+import { H2, H3, H4, H5 } from './typography';
 
-function WorkExperienceRSSchool() {
+export const WorkExperienceRSSchool = (): JSX.Element => {
   return (
     <div className="flex flex-col max-w-[450px] mx-2 my-2">
       <H2>Work Experience</H2>
@@ -143,6 +143,4 @@ function WorkExperienceRSSchool() {
       </ul>
     </div>
   );
-}
-
-export default WorkExperienceRSSchool;
+};

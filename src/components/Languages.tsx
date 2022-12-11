@@ -1,7 +1,7 @@
 import React from 'react';
-import { H2 } from './Typography';
+import { H2 } from './typography';
 
-function Languages() {
+export const Languages = (): JSX.Element => {
   return (
     <div className="flex flex-col max-w-[450px] mx-2 my-2">
       <H2>Languages</H2>
@@ -11,6 +11,4 @@ function Languages() {
       </div>
     </div>
   );
-}
-
-export default Languages;
+};

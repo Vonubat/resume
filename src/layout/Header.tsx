@@ -1,7 +1,7 @@
 import React from 'react';
 import Avatar from '../assets/avatar.jpg';
 
-function Header() {
+export const Header = (): JSX.Element => {
   return (
     <header className="flex justify-center flex-wrap items-center mt-5 max-w-[1024px] mx-auto">
       <img
@@ -25,6 +25,4 @@ function Header() {
       </div>
     </header>
   );
-}
-
-export default Header;
+};

@@ -1,7 +1,7 @@
 import React from 'react';
 import { SKILLS_AND_TOOLS } from '../constants';
-import { H2 } from './Typography';
-import { Badge } from './UI';
+import { H2 } from './typography';
+import { Badge } from './ui';
 
 export const SkillsAndTools = (): JSX.Element => {
   return (

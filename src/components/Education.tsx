@@ -1,7 +1,7 @@
 import React from 'react';
-import { H2, H3, H4, H5 } from './Typography';
+import { H2, H3, H4, H5 } from './typography';
 
-function Education() {
+export const Education = (): JSX.Element => {
   return (
     <div className="flex flex-col max-w-[450px] mx-2 my-2">
       <H2>Education</H2>
@@ -18,6 +18,4 @@ function Education() {
       </ul>
     </div>
   );
-}
-
-export default Education;
+};

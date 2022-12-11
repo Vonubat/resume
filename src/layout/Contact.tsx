@@ -6,7 +6,7 @@ import MobileIcon from '../assets/icons/mobile.svg';
 import SkypeIcon from '../assets/icons/skype.svg';
 import GitHubIcon from '../assets/icons/github.svg';
 import LocationIcon from '../assets/icons/location.svg';
-import { ContactLink } from './UI';
+import { ContactLink } from '../components/ui';
 import { ContactHref } from '../constants';
 
 export const Contact = (): JSX.Element => {

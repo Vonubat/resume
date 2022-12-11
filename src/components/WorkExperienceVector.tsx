@@ -1,8 +1,8 @@
 import React from 'react';
 import { Establishments } from '../constants';
-import { H2, H3, H4, H5 } from './Typography';
+import { H2, H3, H4, H5 } from './typography';
 
-function WorkExperienceVector() {
+export const WorkExperienceVector = (): JSX.Element => {
   return (
     <div className="flex flex-col max-w-[450px] mx-2 my-2">
       <H2>Work Experience</H2>
@@ -26,6 +26,4 @@ function WorkExperienceVector() {
       </ul>
     </div>
   );
-}
-
-export default WorkExperienceVector;
+};

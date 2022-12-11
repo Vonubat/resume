@@ -1,11 +1,13 @@
 import React from 'react';
-import Education from './Education';
-import Languages from './Languages';
-import { SkillsAndTools } from './SkillsAndTools';
-import WorkExperienceRSSchool from './WorkExperienceRSSchool';
-import WorkExperienceVector from './WorkExperienceVector';
+import {
+  SkillsAndTools,
+  Education,
+  Languages,
+  WorkExperienceRSSchool,
+  WorkExperienceVector,
+} from '../components';
 
-function Main() {
+export const Main = (): JSX.Element => {
   return (
     <main className="max-w-[1024px] mx-auto mt-3 flex flex-wrap justify-around lg:justify-between">
       <section className="left">
@@ -19,6 +21,4 @@ function Main() {
       </section>
     </main>
   );
-}
-
-export default Main;
+};
