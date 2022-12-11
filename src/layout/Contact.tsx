@@ -6,7 +6,7 @@ import MobileIcon from '../assets/icons/mobile.svg';
 import SkypeIcon from '../assets/icons/skype.svg';
 import GitHubIcon from '../assets/icons/github.svg';
 import LocationIcon from '../assets/icons/location.svg';
-import { ContactLink } from '../components/ui';
+import { Link } from '../components/ui';
 import { ContactHref } from '../constants';
 
 export const Contact = (): JSX.Element => {
@@ -14,29 +14,29 @@ export const Contact = (): JSX.Element => {
     <div className="contact-block bg-gray-200 whitespace-nowrap">
       <div className="flex flex-wrap justify-around lg:justify-between mt-10 max-w-[1024px] mx-auto py-2 gap-2">
         <section className="main flex flex-col gap-2 mx-2 w-[450px]">
-          <ContactLink src={TelegramIcon} href={ContactHref.telegram}>
+          <Link src={TelegramIcon} href={ContactHref.telegram}>
             @mortally_happy
-          </ContactLink>
-          <ContactLink src={LinkedinIcon} href={ContactHref.linkedin}>
+          </Link>
+          <Link src={LinkedinIcon} href={ContactHref.linkedin}>
             linkedin.com/in/egor-tabunov/
-          </ContactLink>
-          <ContactLink src={EmailIcon} href={ContactHref.email}>
+          </Link>
+          <Link src={EmailIcon} href={ContactHref.email}>
             vonubat@gmail.com
-          </ContactLink>
-          <ContactLink src={MobileIcon} href={ContactHref.mobile}>
+          </Link>
+          <Link src={MobileIcon} href={ContactHref.mobile}>
             +375-29-277-57-43
-          </ContactLink>
+          </Link>
         </section>
         <section className="additional flex flex-col gap-2 mx-2 w-[450px]">
-          <ContactLink src={SkypeIcon} href={ContactHref.skype}>
+          <Link src={SkypeIcon} href={ContactHref.skype}>
             homeanagar
-          </ContactLink>
-          <ContactLink src={GitHubIcon} href={ContactHref.github}>
+          </Link>
+          <Link src={GitHubIcon} href={ContactHref.github}>
             github.com/Vonubat
-          </ContactLink>
-          <ContactLink src={LocationIcon} href={ContactHref.location}>
+          </Link>
+          <Link src={LocationIcon} href={ContactHref.location}>
             Minsk, Belarus
-          </ContactLink>
+          </Link>
         </section>
       </div>
     </div>

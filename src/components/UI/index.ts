@@ -1,3 +1,3 @@
 export { Badge } from './Badge';
-export { ContactLink } from './ContactLink';
+export { Link } from './Link';
 export { List } from './List';
