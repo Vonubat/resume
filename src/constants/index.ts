@@ -37,3 +37,8 @@ export enum ContactHref {
   github = 'https://github.com/Vonubat',
   location = 'https://goo.gl/maps/Dyu6EhVKdz56ZNV37',
 }
+
+export enum Establishments {
+  rsschool = 'https://rs.school/',
+  vector = 'https://vec-tech.by/',
+}

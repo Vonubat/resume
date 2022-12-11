@@ -1,32 +1,16 @@
 import React from 'react';
+import { Establishments } from '../constants';
 import LinkIcon from './../assets/link.png';
+import { H2, H3, H4, H5 } from './Typography';
 
 function WorkExperienceRSSchool() {
   return (
     <div className="flex flex-col max-w-[450px] mx-2 my-2">
-      <h2 className="font-bold leading-loose text-2xl text-slate-600 uppercase">
-        Work Experience
-      </h2>
-      <h3 className="font-semibold leading-none text-xl text-slate-800">
-        Front-end Developer Intern
-      </h3>
-      <h4 className=" text-xl text-slate-800 flex items-center gap-1">
-        The Rolling Scopes School
-        <a
-          href="https://rs.school/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-5 h-5 flex items-center"
-        >
-          <img src={LinkIcon} alt="LinkIcon" />
-        </a>
-      </h4>
-      <h5 className="font-light italic leading-normal text-gray-500">
-        03/2022 - 12/2022
-      </h5>
-      <h5 className="font-light italic leading-thin text-gray-500">
-        Achievements/Tasks:
-      </h5>
+      <H2>Work Experience</H2>
+      <H3>Front-end Developer Intern</H3>
+      <H4 href={Establishments.rsschool}>The Rolling Scopes School</H4>
+      <H5>03/2022 - 12/2022</H5>
+      <H5>Achievements/Tasks:</H5>
       <ul className="marker:content-['-'] ml-5">
         <li className="pl-1">Cross-checking and code-reviewing (36 cases).</li>
         <li className="pl-1">
