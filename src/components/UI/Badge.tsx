@@ -1,7 +1,7 @@
 import React from 'react';
 
 type MyProps = {
-  children?: string;
+  children: string;
 };
 
 export const Badge = ({ children }: MyProps): JSX.Element => {

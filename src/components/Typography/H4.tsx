@@ -4,11 +4,16 @@ import LinkIcon from '../../assets/link.png';
 type MyProps = {
   children: string;
   href?: string;
+  project?: boolean;
 };
 
-export const H4 = ({ children, href }: MyProps): JSX.Element => {
+export const H4 = ({ children, href, project }: MyProps): JSX.Element => {
+  const className = `${
+    project ? 'font-semibold' : 'text-xl'
+  } text-slate-800 flex items-center gap-1`;
+
   return (
-    <h4 className=" text-xl text-slate-800 flex items-center gap-1">
+    <h4 className={className}>
       <>
         {children}
         {href && (
