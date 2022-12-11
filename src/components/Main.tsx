@@ -1,7 +1,7 @@
 import React from 'react';
 import Education from './Education';
 import Languages from './Languages';
-import SkillsAndTools from './SkillsAndTools';
+import { SkillsAndTools } from './SkillsAndTools';
 import WorkExperienceRSSchool from './WorkExperienceRSSchool';
 import WorkExperienceVector from './WorkExperienceVector';
 
