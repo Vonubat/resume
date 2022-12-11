@@ -1,19 +1,13 @@
 import React from 'react';
-import { Establishments, PROJECTS, RS_SCHOOL, Sections } from '../constants';
-import { H2, H3, H4, H5 } from './typography';
+import { PROJECTS, Sections } from '../constants';
+import { H2, H4 } from './typography';
 import { List } from './ui';
 
-export const WorkExperienceRSSchool = (): JSX.Element => {
-  const { position, name, period, achievementsTasks } = RS_SCHOOL;
+export const Projects = (): JSX.Element => {
   const { rickAndMorty, rsLang, asyncRace, shelter, repairWorkshop } = PROJECTS;
   return (
     <div className="flex flex-col max-w-[450px] mx-2 my-2">
-      <H2>{Sections.workExperience}</H2>
-      <H3>{position}</H3>
-      <H4 href={Establishments.rsschool}>{name}</H4>
-      <H5>{period}</H5>
-      <H5>Achievements/Tasks:</H5>
-      <List>{achievementsTasks}</List>
+      <H2>{Sections.projects}</H2>
 
       <H4 href={rickAndMorty.link} project={true}>
         {rickAndMorty.name}
