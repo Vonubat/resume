@@ -19,6 +19,7 @@ export const SKILLS_AND_TOOLS: string[] = [
   'Tailwind',
   'HTML',
   'BEM',
+  'Internationalization',
   'Webpack',
   'ESLint',
   'Postman',
@@ -100,7 +101,7 @@ export const PROJECTS = {
     link: 'https://project-management-system-app.netlify.app/',
     features: [
       `Kanban Board to manage your team's workflow. This an application that helps a team or group of developers achieve their goals in real time. In this application you can manage your column, tasks using Drag-n-Drop, also can specify additional info in task description and assign users`,
-      'Key skills: React, Redux Toolkit, Material UI, WebSockets, Drag-n-Drop, Routing, MongoDB, async coding, team working, code reviewing, resolve conflicts, Scrum, Kanban.',
+      'Key skills: React, Redux Toolkit, Material UI, WebSockets, Drag-n-Drop, Internationalization, Routing, MongoDB, async coding, team working, code reviewing, resolve conflicts, Scrum, Kanban.',
       'My role: team leader.',
       'Responsibility: basic project settings, API communication, columns, tasks, welcome page, video-tutorials, tasks assigning to another users, WebSockets',
       'Implementation time: 5 weeks.',
