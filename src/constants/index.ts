@@ -147,7 +147,7 @@ export const PROJECTS = {
   },
   repairWorkshop: {
     name: 'Repair workshop',
-    link: 'https://vonubat.github.io/kulikov-project/',
+    link: 'http://storyart.by/',
     features: [
       'The first freelance job. Landing Page with responsive layout.',
       'Key skills: SMTP-service, JS, HTML, Sass.',
