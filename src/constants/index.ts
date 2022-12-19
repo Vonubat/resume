@@ -147,7 +147,7 @@ export const PROJECTS = {
   },
   repairWorkshop: {
     name: 'Repair workshop',
-    link: 'http://storyart.by/',
+    link: 'http://stroyart.by/',
     features: [
       'The first freelance job. Landing Page with responsive layout.',
       'Key skills: SMTP-service, JS, HTML, Sass.',
