@@ -74,7 +74,7 @@ export const VECTOR = {
     'Estimation of a budget.',
     'Time-management.',
     'Monitoring progress.',
-    `Quality control and client's satisfaction measurement`,
+    `Quality control and client's satisfaction measurement.`,
     `Management of issues and risks.`,
   ],
 };
