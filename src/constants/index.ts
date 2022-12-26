@@ -107,7 +107,6 @@ export const PROJECTS = {
       'Key skills: React, Redux Toolkit, Material UI, WebSockets, Drag-n-Drop, Internationalization, Routing, MongoDB, async coding, team working, code reviewing, resolve conflicts, Scrum, Kanban.',
       'My role: team leader.',
       'Responsibility: basic project settings, API communication, columns, tasks, welcome page, video-tutorials, tasks assigning to another users, WebSockets.',
-      'Implementation time: 5 weeks.',
     ],
   },
   rickAndMorty: {
@@ -116,7 +115,6 @@ export const PROJECTS = {
     features: [
       'React SPA based on the television show Rick and Morty for access to about hundreds of characters, images, locations and episodes.',
       'Key skills: React (Functional & Class-Components), Hooks (including useReducer and Context API), Redux, RTK, RTK Query, Tailwind, React Testing Library.',
-      'Implementation time: 6 weeks.',
     ],
   },
   rsLang: {
@@ -127,7 +125,6 @@ export const PROJECTS = {
       'Key skills: TS, MongoDB, async coding, team working, code reviewing, resolve conflicts, Scrum, Kanban.',
       'My role: team leader.',
       'Responsibility: basic project settings, API communication, authorization, textbook, dictionary, minigames.',
-      'Implementation time: 4 weeks.',
     ],
   },
   asyncRace: {
@@ -136,7 +133,6 @@ export const PROJECTS = {
     features: [
       `Race Game SPA. Allows you to manage the collection of the cars, operate it's engines, and show races statistics. Communication with a server.`,
       'Key skills: communication with a server (fetch, REST API), async coding / Promises, JS Animations, DOM Api, TS.',
-      'Implementation time: 2 weeks.',
     ],
   },
   shelter: {
@@ -145,7 +141,6 @@ export const PROJECTS = {
     features: [
       'Responsive layout (SASS) and styling based on Figma model for fixed screen resolutions: 1280px, 768px, 320px.',
       'Key skills: pure JS (slider, pagination, modal window, burger-menu), HTML, Sass.',
-      'Implementation time: 3 weeks.',
     ],
   },
   repairWorkshop: {
@@ -154,7 +149,6 @@ export const PROJECTS = {
     features: [
       'The first freelance job. Landing Page with responsive layout.',
       'Key skills: SMTP-service, JS, HTML, Sass.',
-      'Implementation time: 2 weeks.',
     ],
   },
 };
