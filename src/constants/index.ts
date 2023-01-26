@@ -21,8 +21,8 @@ export const SKILLS_AND_TOOLS: string[] = [
   'HTML',
   'BEM',
   'Semantics',
-  'CSS (Responsive, Adaptive)',
   'Sass',
+  'CSS (Responsive, Adaptive)',
   'UI/UX, pixel-perfect',
   'Git',
   'Internationalization',
@@ -31,8 +31,8 @@ export const SKILLS_AND_TOOLS: string[] = [
   'Postman',
   'Swagger',
   'Figma',
-  'Scrum',
   'Kanban (Trello)',
+  'Scrum',
 ];
 
 export enum ContactHref {
