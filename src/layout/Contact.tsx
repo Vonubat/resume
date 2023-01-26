@@ -11,7 +11,7 @@ import { ContactHref } from '../constants';
 
 export const Contact = (): JSX.Element => {
   return (
-    <div className="contact-block bg-gray-200 whitespace-nowrap">
+    <address className="contact-block bg-gray-200 whitespace-nowrap not-italic">
       <div className="flex flex-wrap justify-around lg:justify-between mt-10 max-w-[1024px] mx-auto py-2 gap-2">
         <section className="main flex flex-col gap-2 mx-2 w-[450px]">
           <Link src={TelegramIcon} href={ContactHref.telegram}>
@@ -39,6 +39,6 @@ export const Contact = (): JSX.Element => {
           </Link>
         </section>
       </div>
-    </div>
+    </address>
   );
 };
