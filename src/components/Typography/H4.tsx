@@ -10,7 +10,7 @@ type MyProps = {
 export const H4 = ({ children, href, project }: MyProps): JSX.Element => {
   const className = `${
     project ? 'font-semibold' : 'text-xl'
-  } text-slate-800 flex items-center gap-1`;
+  } text-slate-800 flex items-center gap-1 leading-none`;
 
   return (
     <h4 className={className}>
